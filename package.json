@@ -1,6 +1,6 @@
 {
-  "name": "clear-room",
-  "version": "1.0.0",
+  "name": "clean-room",
+  "version": "2.0.0",
   "description": "Cleans up browser state e.g cookies, localstorage",
   "main": "index.js",
   "scripts": {
