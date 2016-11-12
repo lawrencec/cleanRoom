@@ -1,0 +1,56 @@
+{
+  "name": "clear-room",
+  "version": "1.0.0",
+  "description": "Cleans up browser state e.g cookies, localstorage",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "karma start ./test/config/karma.conf.js",
+    "test:coverage:cc": "npm run test; codeclimate-test-reporter < target/coverage/report-lcov/lcov.info",
+    "test:report": "open target/coverage/report-html/index.html",
+    "test:watch": "karma start ./test/config/karma.conf.js --single-run=false"
+  },
+  "keywords": [
+    "testing",
+    "test",
+    "browser",
+    "state",
+    "unit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lawrencec/cleanRoom"
+  },
+  "author": "Lawrence Carvalho",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "hugs": "^1.0.2",
+    "karma-chai": "^0.1.0",
+    "karma-chai-sinon": "^0.1.5",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-junit-reporter": "^1.0.0",
+    "karma-mocha": "^1.0.1",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-spec-reporter": "0.0.26",
+    "mocha": "^3.1.2",
+    "mochawesome": "^1.3.5",
+    "npm-ls-scripts": "^0.1.2",
+    "sinon-chai": "^2.8.0",
+    "unroll": "^1.1.0"
+  },
+  "eslintConfig": {
+    "rules": {
+      "semi": [
+        "error",
+        "always"
+      ],
+      "consistent-return": [
+        "error",
+        {}
+      ]
+    }
+  },
+  "greenkeeper": {}
+}
