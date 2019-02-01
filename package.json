@@ -25,7 +25,7 @@
   "license": "ISC",
   "devDependencies": {
     "codeclimate-test-reporter": "^0.4.0",
-    "eslint": "^3.9.1",
+    "eslint": "^5.13.0",
     "hugs": "^1.0.2",
     "karma": "^1.3.0",
     "karma-chai": "^0.1.0",
